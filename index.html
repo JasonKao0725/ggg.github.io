@@ -1,23 +1,26 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>進度條 HTML/CSS/Javascript 實例--</title>
         <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        
-        <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/earlyaccess/notosanstc.css">
-        <link href="https://fonts.googleapis.com/css?family=Macondo" rel="stylesheet">
-                                                                                     
-        <link rel="stylesheet"  type="text/css" href="css/normalixe.css">
-        <link rel="stylesheet" type="text/css" href="css/all.css">
-        <link rel="stylesheet" type="text/css" href="css/fontawesome.css">
-        <link rel="stylesheet" type="text/css" href="css/grid.css">
-        <link rel="stylesheet" type="text/css" href="css/nav.css">
-        <link rel="stylesheet" type="text/css" href="css/index_cover.css">
-        <link rel="stylesheet" type="text/css" href="css/index.css">
+        <meta name="viewport" content="width=device-width,intial-scale=1">
+        <link rel="stylesheet" href="//fonts.googleapis.com/earlyaccess/notosanstc.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Macondo">
+        <link rel="stylesheet" href="css/normalixe.css">
+        <link rel="stylesheet" href="css/all.css">
+        <link rel="stylesheet" href="css/fontawesome.css">
+        <link rel="stylesheet" href="css/grid.css">
+        <link rel="stylesheet" href="css/nav.css">
+        <link rel="stylesheet" href="css/hidden.css">
+        <link rel="stylesheet" href="css/index.css">
+        <link rel="stylesheet" href="css/ratio.css">
+        <link rel="stylesheet" href="css/card.css">
+        <link rel="stylesheet" href="css/palyer.css">
+        <link rel="stylesheet" href="css/footer.css">
+        <link rel="stylesheet" href="css/index_cover.css">
         <script src="js/jquery-3.2.1.min.js"></script>
     </head>
-    <body>    
+    <body>
+        
         <header>
             <nav class="nav">
                 <ul class="nav-list">
@@ -25,44 +28,95 @@
                     <li class="nav-list-item"><a href="https://www.google.com">google</a></li>
                     <li class="nav-list-item"><a href="https://www.csu.edu.tw/UIPWeb/wSite/mp?mp=10001">正修科技大學</a></li>
                 </ul>
-                <button type="button" class="nav-button">
+                <button class="nav-button">
                     <i class="fa fa-bars" aria-hidden="true"></i>
                 </button>
             </nav>
         </header>
+        
         <main>
-            <style>
-                
-
-                
-            </style>
             <section>
                 <!-- 首頁-->
                 <div class="row">
-                    <div class="col-phone-100" style="background-color: aqua">
+                    <div class="col-phone-100" style="background-color: darksalmon">
                         <div class="index-cover">
-                                <div class="index-container">
-                                <h1 class="_title">首頁標語</h1>
-                            <div>
-                                <button type="button" class="btn btn_light">
-                                  登入
-                                </button>
-                                 <button type="button" class="btn btn_dark">
-                                  註冊
-                                </button>
+                            <div class="index-container">
+                                <h1 class="_title">首頁</h1>
+                                <div>
+                                    <button type="button" class="btn btn_light">登入</button>
+                                    <button type="button" class="btn btn_dark">註冊</button>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
-            </div>
             </section>
+            <style>
+                
+            </style>
             <section>
                 <!-- cards-->
                 <div class="container">
                     <div class="row">
-                        <div class="col-phone-100 col-tablet-50" style="height: 300px; background-color: red;">
+                        <div class="col-phone-100 col-tablet-50">
+                            <div class="card">
+                                <div class="_image">
+                                    <div class="ratio_3_2">
+                                        <img class="ratio_content" src="https://images.pexels.com/photos/607080/pexels-photo-607080.jpeg?auto=compress&cs=tinysrgb&w=600">
+                                    </div>
+                                </div>
+                                <div class="_contant">
+                                    <h4 class="_title">
+                                        title title title title title
+                                    </h4>
+                                    <p class="_detail">
+                                        detail detail detail detail detail
+                                        detail detail detail detail detail
+                                    </p>
+                                </div>
+                                <div class="_action">
+                                    <div class="_action_contant">
+                                        <a class="_link" href="https://www.pexels.com/zh-tw/search/star/">
+                                            <button  class="btn"type="button">
+                                                more
+                                            </button>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
-                        <div class="col-phone-100 col-tablet-50" style="height: 300px; background-color: rebeccapurple;">
+                        <div class="col-phone-100 col-tablet-50">
+                            <div class="card">
+                                <div class="_image">
+                                    <div class="ratio_3_2">
+                                        <img class="ratio_content" src="https://images.pexels.com/photos/2700149/pexels-photo-2700149.jpeg?auto=compress&cs=tinysrgb&w=600">
+                                    </div>
+                                </div>
+                                <div class="_contant">
+                                    <h4 class="_title">
+                                        title title title title title
+                                    </h4>
+                                    <p class="_detail">
+                                        detail detail detail detail detail
+                                        detail detail detail detail detail
+                                        detail detail detail detail detail
+                                        detail detail detail detail detail
+                                        detail detail detail detail detail
+                                        detail detail detail detail detail
+                                        detail detail detail detail detail
+                                        detail detail detail detail detail
+                                    </p>
+                                </div>
+                                <div class="_action">
+                                    <div class="_action_contant">
+                                        <a class="_link" href="https://www.pexels.com/zh-tw/search/star/">
+                                            <button  class="btn"type="button">
+                                                more
+                                            </button>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -71,41 +125,117 @@
                 <!-- video-->
                 <div class="container">
                     <div class="row">
-                        <div class="col-phone-100 col-tablet-67" style="height: 300px; background-color: teal;">
+                        <div class="col-phone-100 col-tablet-67">
+                            <div class="video-player">
+                                <div class="ratio_16_9">
+                                    <iframe id="video_player" class="ratio_content"
+                                    src="https://www.youtube.com/embed/gVR5IbtAxqU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                                </div>
+                            </div>
                         </div>
-                        <div class="col-phone-100 col-tablet-33" style="height: 300px; background-color: aqua;">
+                        <div class="col-phone-100 col-tablet-33">
+                            <div class="video-list-container card">
+                                <div class="ratio_8_9">
+                                    <ul class="ratio_content video-list ">
+                                        <li class="_video" data-video="qvRfvHrRyiw">好味小姐</li>
+                                        <li class="_video" data-video="QamXrTW5z4Q">在引擎蓋撿到小貓?</li>
+                                        <li class="_video" data-video="oikvQFuS-fA">又要多一隻新貓了?</li>
+                                        
+                                    </ul>
+                                </div>
+                            </div>
+                            
                         </div>
                     </div>
                 </div>
             </section>
-            <section>
+            <script>
+                $(function(){
+                    
+                })
+            </script>
+                
+            <section class="remove_padding">
                 <!-- image-->
                 <div class="container">
                     <div class="row">
-                        <div class="col-phone-100 col-tablet-50 col-desktop-25" style="height: 300px; background-color: antiquewhite;">
+                        <div class="col-phone-100 col-tablet-50 col-desktop-25">
+                            <div class="ratio_3_2">
+                                <img class="ratio_content" src="https://images.pexels.com/photos/631477/pexels-photo-631477.jpeg?auto=compress&cs=tinysrgb&w=600">
+                            </div>
                         </div>
-                        <div class="col-phone-100 col-tablet-50 col-desktop-25" style="height: 300px; background-color: blueviolet;">
+                        <div class="col-phone-100 col-tablet-50 col-desktop-25">
+                            <div class="ratio_3_2">
+                                <img class="ratio_content" src="https://images.pexels.com/photos/355465/pexels-photo-355465.jpeg?auto=compress&cs=tinysrgb&w=600">
+                            </div>
                         </div>
-                        <div class="col-phone-100 col-tablet-50 col-desktop-25" style="height: 300px; background-color: navajowhite;">
+                        <div class="col-phone-100 col-tablet-50 col-desktop-25  hidden-on-phone">
+                            <div class="ratio_3_2">
+                                <img class="ratio_content" src="https://images.pexels.com/photos/2150/sky-space-dark-galaxy.jpg?auto=compress&cs=tinysrgb&w=600">
+                            </div>
                         </div>
-                        <div class="col-phone-100 col-tablet-50 col-desktop-25" style="height: 300px; background-color: darkred;">
+                        <div class="col-phone-100 col-tablet-50 col-desktop-25  hidden-on-phone">
+                            <div class="ratio_3_2">
+                                <img class="ratio_content" src="https://images.pexels.com/photos/169789/pexels-photo-169789.jpeg?auto=compress&cs=tinysrgb&w=600">
+                            </div>
                         </div>
                     </div>
                 </div>
             </section>
         </main>
         <footer>
-            <div class="row">
-                <div class="col-phone-100 col-tablet-33" style="height: 300px; background-color: darkred;">
-                </div>
-                <div class="col-phone-100 col-tablet-33" style="height: 300px; background-color: darkkhaki;">
-                </div>
-                <div class="col-phone-100 col-tablet-33" style="height: 300px; background-color: darkslateblue;">
+            <div class="containter">
+                <div class="row">
+                    <div class="col-phone-100 col-tablet-33">
+                        <div class="_containter">
+                            <div class="footer-lints">
+                                <ul>
+                                    <li>link1</li>
+                                    <li>link1</li>
+                                    <li>link1</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-phone-100 col-tablet-33">
+                        <div class="_containter">
+                            <div class="footer-lints">
+                                <ul>
+                                    <li>link1</li>
+                                    <li>link1</li>
+                                    <li>link1</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-phone-100 col-tablet-33">
+                        <div class="_container _center">
+                            <div class="row">
+                                <!--https://fontawesome.com/icons/facebook?s=&f=brands-->
+                                <div class="col-phone-100 col-phone-33">
+                                    <i class="fa-brands fa-facebook"></i>
+                                </div>
+                                <div class="col-phone-100 col-phone-33">
+                                    <i class="fa-brands fa-twitter"></i>
+                                </div>
+                                <div class="col-phone-100 col-phone-33">
+                                    <i class="fa-brands fa-youtube"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </footer>
         <script>
             $(function(){
+                
+            $("._video").click(function(){
+                        var video = $(this).data("video");
+                        var url = "https://www.youtube.com/embed/" + video;
+                        $("#video_player").attr('src',url);
+            })
+                
               $(".nav-button").click(function(){
                 $(".nav-list").slideToggle(1000);
                 })
